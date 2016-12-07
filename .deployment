@@ -1,2 +1,2 @@
 [config]
-command = post_deploy.cmd
+command = custom_deploy.cmd
