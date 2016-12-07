@@ -1,7 +1,7 @@
 <?php
 echo "PHP START\n";
 
-$dir    = '.\vendor';
+$dir    = './vendor';
 $files1 = scandir($dir);
 
 print_r($files1);
