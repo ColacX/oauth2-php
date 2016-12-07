@@ -1,6 +1,6 @@
 echo Deleting contents of %DEPLOYMENT_TARGET%
 cd %DEPLOYMENT_TARGET%
-del * /S /Q
+del * /S /Q /F
 
 echo Copy Contents from %DEPLOYMENT_SOURCE% to %DEPLOYMENT_TARGET%
 xcopy /Y %DEPLOYMENT_SOURCE% %DEPLOYMENT_TARGET%
