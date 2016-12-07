@@ -6,4 +6,6 @@ for ($x = 0; $x <= 10; $x++) {
 }
 
 echo file_get_contents( "vendor/autoload.php" );
+
+echo "wtf"
 ?>
