@@ -1,7 +1,7 @@
 <?php
 echo "PHP START";
 
-require("./vendor/autoload.php")
+require './vendor/autoload.php';
 
 echo "PHP FINISH";
 ?>
