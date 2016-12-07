@@ -6,8 +6,6 @@ php -d extension=php_intl.dll %DEPLOYMENT_SOURCE%/composer.phar install -v --pre
 
 echo %DEPLOYMENT_SOURCE%
 dir %DEPLOYMENT_SOURCE%
-dir %DEPLOYMENT_SOURCE%/vendor
 
 echo %DEPLOYMENT_TARGET%
 dir %DEPLOYMENT_TARGET%
-dir %DEPLOYMENT_TARGET%/vendor
