@@ -1,13 +1,14 @@
 <?php
-echo "Hello World!" . " php " . " works ";
+echo "PHP START";
 
-echo file_get_contents( "test.php" );
+$dir    = '.';
+$files1 = scandir($dir);
+$files2 = scandir($dir, 1);
 
-for ($x = 0; $x <= 10; $x++) {
-    echo "The number is: $x <br>";
-}
+print_r($files1);
 
-echo file_get_contents( "./vendor/autoload.php" );
+$dirs = array_filter(glob('*'), 'is_dir');
+print_r($dirs);
 
-echo "wtf"
+echo "PHP FINISH";
 ?>
