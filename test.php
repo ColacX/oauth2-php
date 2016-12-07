@@ -1,14 +1,13 @@
 <?php
-echo "PHP START";
+echo "PHP START\n";
 
-$dir    = '.';
+$dir    = '.\vendor';
 $files1 = scandir($dir);
-$files2 = scandir($dir, 1);
 
 print_r($files1);
 
-$dirs = array_filter(glob('*'), 'is_dir');
+$dirs = array_filter(glob('*'));
 print_r($dirs);
 
-echo "PHP FINISH";
+echo "PHP FINISH\n";
 ?>
