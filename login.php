@@ -3,8 +3,6 @@ echo "PHP START\n";
 
 require './vendor/autoload.php';
 
-sleep(5);
-
 $provider = new TheNetworg\OAuth2\Client\Provider\Azure([
     'clientId'          => '8fbd8511-110a-4cf5-b6a2-22a806b5faed',
     'clientSecret'      => 'mnoHfGFXklDLL4cVkwWJNKgQOH5XX9y3DL4M6R4p5xE=',
