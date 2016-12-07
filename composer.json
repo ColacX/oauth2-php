@@ -1,0 +1,31 @@
+{
+    "name": "colacx/oauth2-php-azure",
+    "description": "oauth2 php azure experiment",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "ColacX",
+        }
+    ],
+    "keywords": [
+        "oauth",
+        "oauth2",
+        "client",
+        "authorization",
+        "microsoft",
+        "windows azure",
+        "azure",
+        "azure active directory",
+        "aad",
+        "sso"
+    ],
+    "require": {
+        "php": ">=5.5.0",
+        "thenetworg/oauth2-azure": ">=1.1.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "TheNetworg\\OAuth2\\Client\\": "src/"
+        }
+    }
+}
