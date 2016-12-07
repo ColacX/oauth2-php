@@ -1,6 +1,5 @@
 echo Deleting contents of %DEPLOYMENT_TARGET%
-del /q destination\*
-for /d %x in (destination\*) do @rd /s /q "%x"
+del /S %DEPLOYMENT_TARGET%\*
 
 echo Copy Contents from %DEPLOYMENT_SOURCE% to %DEPLOYMENT_TARGET%
 cp -a %DEPLOYMENT_SOURCE% %DEPLOYMENT_TARGET%
